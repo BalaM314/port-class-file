@@ -15,4 +15,8 @@ class Amogus {
 		console.log("Hi I'm " + this.name);
 	}
 	
+	sayHiAgain(){
+		console.log("Hi I'm " + this.name);
+	}
+	
 }

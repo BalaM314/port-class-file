@@ -45,8 +45,8 @@ const portClassFile = new Script(
 	}
 );
 
-const classStartRegex = /function (\w+)\((.*?)\) ?\{/;
-const instanceMethodRegex = /(\w+)\.prototype\.(\w+) ?= ?function\((.*)\) ?\{/;
+const classStartRegex = /function (\w+) ?\((.*?)\) ?\{/;
+const instanceMethodRegex = /(\w+)\.prototype\.(\w+) ?= ?function ?\((.*)\) ?\{/;
 function getPortedData(data, {onlyUppercase}){
 	const outputData = [];
 	let shouldIndent = false;

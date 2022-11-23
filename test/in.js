@@ -10,6 +10,10 @@ function Amogus(name){
 	this.name = name;
 }
 
-Amogus.prototype.sayHi = function() {
+Amogus.prototype.sayHi=function(){
+	console.log("Hi I'm " + this.name);
+}
+
+Amogus.prototype.sayHiAgain = function () {
 	console.log("Hi I'm " + this.name);
 }
