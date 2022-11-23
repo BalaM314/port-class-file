@@ -1,0 +1,32 @@
+{
+  "name": "port-class-file",
+  "version": "1.0.0",
+  "description": "Automatically ports a JS file from the old \".prototype.\" class syntax to the new one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalaM314/port-class-file.git"
+  },
+  "keywords": [
+    "port",
+    "transpiler",
+    "es6",
+    "es2015"
+  ],
+  "author": "BalaM314",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/BalaM314/port-class-file/issues"
+  },
+  "homepage": "https://github.com/BalaM314/port-class-file#readme",
+  "dependencies": {
+    "cli-app": "github:BalaM314/cli-app"
+  },
+  "type": "module",
+  "bin": {
+    "port-class-file": "index.js"
+  }
+}
